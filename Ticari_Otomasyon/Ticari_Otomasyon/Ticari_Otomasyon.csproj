@@ -62,6 +62,30 @@
     <Compile Include="FrmAnaModul.Designer.cs">
       <DependentUpon>FrmAnaModul.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmBankalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBankalar.Designer.cs">
+      <DependentUpon>FrmBankalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFaturalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFaturalar.Designer.cs">
+      <DependentUpon>FrmFaturalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFaturaUrun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFaturaUrun.Designer.cs">
+      <DependentUpon>FrmFaturaUrun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFaturaUrunDuzenleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFaturaUrunDuzenleme.Designer.cs">
+      <DependentUpon>FrmFaturaUrunDuzenleme.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmFirmalar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +133,18 @@
     <Compile Include="sqlbaglantisi.cs" />
     <EmbeddedResource Include="FrmAnaModul.resx">
       <DependentUpon>FrmAnaModul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBankalar.resx">
+      <DependentUpon>FrmBankalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFaturalar.resx">
+      <DependentUpon>FrmFaturalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFaturaUrun.resx">
+      <DependentUpon>FrmFaturaUrun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFaturaUrunDuzenleme.resx">
+      <DependentUpon>FrmFaturaUrunDuzenleme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmFirmalar.resx">
       <DependentUpon>FrmFirmalar.cs</DependentUpon>
