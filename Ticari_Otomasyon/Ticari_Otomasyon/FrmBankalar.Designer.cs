@@ -119,7 +119,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lookUpEdit1.Properties.NullText = "Bir Firma Seçin";
             this.lookUpEdit1.Size = new System.Drawing.Size(164, 24);
-            this.lookUpEdit1.TabIndex = 34;
+            this.lookUpEdit1.TabIndex = 11;
             // 
             // labelControl12
             // 
@@ -156,21 +156,21 @@
             this.TxtHesapTuru.Location = new System.Drawing.Point(145, 383);
             this.TxtHesapTuru.Name = "TxtHesapTuru";
             this.TxtHesapTuru.Size = new System.Drawing.Size(163, 22);
-            this.TxtHesapTuru.TabIndex = 29;
+            this.TxtHesapTuru.TabIndex = 10;
             // 
             // TxtYetkili
             // 
             this.TxtYetkili.Location = new System.Drawing.Point(145, 279);
             this.TxtYetkili.Name = "TxtYetkili";
             this.TxtYetkili.Size = new System.Drawing.Size(163, 22);
-            this.TxtYetkili.TabIndex = 28;
+            this.TxtYetkili.TabIndex = 7;
             // 
             // TxtHesapNo
             // 
             this.TxtHesapNo.Location = new System.Drawing.Point(145, 246);
             this.TxtHesapNo.Name = "TxtHesapNo";
             this.TxtHesapNo.Size = new System.Drawing.Size(163, 22);
-            this.TxtHesapNo.TabIndex = 27;
+            this.TxtHesapNo.TabIndex = 6;
             // 
             // MskTel
             // 
@@ -178,7 +178,7 @@
             this.MskTel.Mask = "(999) 000-0000";
             this.MskTel.Name = "MskTel";
             this.MskTel.Size = new System.Drawing.Size(163, 23);
-            this.MskTel.TabIndex = 26;
+            this.MskTel.TabIndex = 8;
             // 
             // CmbIlce
             // 
@@ -187,7 +187,7 @@
             this.CmbIlce.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.CmbIlce.Size = new System.Drawing.Size(164, 22);
-            this.CmbIlce.TabIndex = 25;
+            this.CmbIlce.TabIndex = 3;
             // 
             // CmbIl
             // 
@@ -196,7 +196,7 @@
             this.CmbIl.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.CmbIl.Size = new System.Drawing.Size(163, 22);
-            this.CmbIl.TabIndex = 24;
+            this.CmbIl.TabIndex = 2;
             this.CmbIl.SelectedIndexChanged += new System.EventHandler(this.CmbIl_SelectedIndexChanged);
             // 
             // labelControl11
@@ -245,7 +245,7 @@
             this.BtnKaydet.Location = new System.Drawing.Point(146, 454);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(162, 43);
-            this.BtnKaydet.TabIndex = 19;
+            this.BtnKaydet.TabIndex = 12;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
@@ -274,7 +274,7 @@
             this.TxIban.Location = new System.Drawing.Point(146, 213);
             this.TxIban.Name = "TxIban";
             this.TxIban.Size = new System.Drawing.Size(163, 22);
-            this.TxIban.TabIndex = 13;
+            this.TxIban.TabIndex = 5;
             // 
             // labelControl6
             // 
@@ -291,7 +291,7 @@
             this.TxtSube.Location = new System.Drawing.Point(146, 181);
             this.TxtSube.Name = "TxtSube";
             this.TxtSube.Size = new System.Drawing.Size(162, 22);
-            this.TxtSube.TabIndex = 10;
+            this.TxtSube.TabIndex = 4;
             // 
             // labelControl5
             // 
@@ -318,7 +318,7 @@
             this.TxtBankaAd.Location = new System.Drawing.Point(146, 84);
             this.TxtBankaAd.Name = "TxtBankaAd";
             this.TxtBankaAd.Size = new System.Drawing.Size(163, 22);
-            this.TxtBankaAd.TabIndex = 4;
+            this.TxtBankaAd.TabIndex = 1;
             // 
             // labelControl2
             // 
@@ -336,7 +336,7 @@
             this.MskTarih.Mask = "00/00/0000";
             this.MskTarih.Name = "MskTarih";
             this.MskTarih.Size = new System.Drawing.Size(163, 23);
-            this.MskTarih.TabIndex = 2;
+            this.MskTarih.TabIndex = 9;
             this.MskTarih.ValidatingType = typeof(System.DateTime);
             // 
             // TxtId
@@ -344,7 +344,7 @@
             this.TxtId.Location = new System.Drawing.Point(146, 53);
             this.TxtId.Name = "TxtId";
             this.TxtId.Size = new System.Drawing.Size(163, 22);
-            this.TxtId.TabIndex = 1;
+            this.TxtId.TabIndex = 22;
             // 
             // labelControl1
             // 

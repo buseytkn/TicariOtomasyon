@@ -108,7 +108,7 @@
             this.MskTel2.Mask = "(999) 000-0000";
             this.MskTel2.Name = "MskTel2";
             this.MskTel2.Size = new System.Drawing.Size(163, 23);
-            this.MskTel2.TabIndex = 27;
+            this.MskTel2.TabIndex = 4;
             // 
             // MskTel1
             // 
@@ -116,7 +116,7 @@
             this.MskTel1.Mask = "(999) 000-0000";
             this.MskTel1.Name = "MskTel1";
             this.MskTel1.Size = new System.Drawing.Size(163, 23);
-            this.MskTel1.TabIndex = 26;
+            this.MskTel1.TabIndex = 3;
             // 
             // CmbIlce
             // 
@@ -125,7 +125,7 @@
             this.CmbIlce.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.CmbIlce.Size = new System.Drawing.Size(164, 22);
-            this.CmbIlce.TabIndex = 25;
+            this.CmbIlce.TabIndex = 8;
             // 
             // CmbIl
             // 
@@ -134,7 +134,7 @@
             this.CmbIl.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.CmbIl.Size = new System.Drawing.Size(163, 22);
-            this.CmbIl.TabIndex = 24;
+            this.CmbIl.TabIndex = 7;
             this.CmbIl.SelectedIndexChanged += new System.EventHandler(this.CmbIl_SelectedIndexChanged);
             // 
             // labelControl11
@@ -183,7 +183,7 @@
             this.BtnKaydet.Location = new System.Drawing.Point(146, 454);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(162, 43);
-            this.BtnKaydet.TabIndex = 19;
+            this.BtnKaydet.TabIndex = 11;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
@@ -192,7 +192,7 @@
             this.RchAdres.Location = new System.Drawing.Point(146, 344);
             this.RchAdres.Name = "RchAdres";
             this.RchAdres.Size = new System.Drawing.Size(162, 96);
-            this.RchAdres.TabIndex = 18;
+            this.RchAdres.TabIndex = 10;
             this.RchAdres.Text = "";
             // 
             // labelControl9
@@ -230,7 +230,7 @@
             this.TxtVergiDairesi.Location = new System.Drawing.Point(145, 316);
             this.TxtVergiDairesi.Name = "TxtVergiDairesi";
             this.TxtVergiDairesi.Size = new System.Drawing.Size(163, 22);
-            this.TxtVergiDairesi.TabIndex = 13;
+            this.TxtVergiDairesi.TabIndex = 9;
             // 
             // labelControl6
             // 
@@ -247,7 +247,7 @@
             this.TxtMail.Location = new System.Drawing.Point(146, 232);
             this.TxtMail.Name = "TxtMail";
             this.TxtMail.Size = new System.Drawing.Size(163, 22);
-            this.TxtMail.TabIndex = 10;
+            this.TxtMail.TabIndex = 6;
             // 
             // labelControl5
             // 
@@ -274,7 +274,7 @@
             this.TxtSoyad.Location = new System.Drawing.Point(146, 112);
             this.TxtSoyad.Name = "TxtSoyad";
             this.TxtSoyad.Size = new System.Drawing.Size(163, 22);
-            this.TxtSoyad.TabIndex = 6;
+            this.TxtSoyad.TabIndex = 2;
             // 
             // labelControl3
             // 
@@ -291,7 +291,7 @@
             this.TxtAd.Location = new System.Drawing.Point(146, 84);
             this.TxtAd.Name = "TxtAd";
             this.TxtAd.Size = new System.Drawing.Size(163, 22);
-            this.TxtAd.TabIndex = 4;
+            this.TxtAd.TabIndex = 1;
             // 
             // labelControl2
             // 
@@ -309,7 +309,7 @@
             this.MskTC.Mask = "00000000000";
             this.MskTC.Name = "MskTC";
             this.MskTC.Size = new System.Drawing.Size(163, 23);
-            this.MskTC.TabIndex = 2;
+            this.MskTC.TabIndex = 5;
             this.MskTC.ValidatingType = typeof(int);
             // 
             // TxtId
@@ -317,7 +317,7 @@
             this.TxtId.Location = new System.Drawing.Point(146, 53);
             this.TxtId.Name = "TxtId";
             this.TxtId.Size = new System.Drawing.Size(163, 22);
-            this.TxtId.TabIndex = 1;
+            this.TxtId.TabIndex = 25;
             // 
             // labelControl1
             // 

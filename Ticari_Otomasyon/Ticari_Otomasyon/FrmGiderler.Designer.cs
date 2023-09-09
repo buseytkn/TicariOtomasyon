@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGiderler));
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.TxtMaaslar = new DevExpress.XtraEditors.TextEdit();
+            this.TxtInternet = new DevExpress.XtraEditors.TextEdit();
             this.CmbYil = new DevExpress.XtraEditors.ComboBoxEdit();
             this.CmbAy = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
@@ -53,10 +55,10 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.TxtInternet = new DevExpress.XtraEditors.TextEdit();
-            this.TxtMaaslar = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtMaaslar.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtInternet.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CmbYil.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CmbAy.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtEkstra.Properties)).BeginInit();
@@ -66,8 +68,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.TxtId.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtInternet.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtMaaslar.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl1
@@ -100,6 +100,20 @@
             this.groupControl1.Size = new System.Drawing.Size(324, 867);
             this.groupControl1.TabIndex = 7;
             // 
+            // TxtMaaslar
+            // 
+            this.TxtMaaslar.Location = new System.Drawing.Point(144, 260);
+            this.TxtMaaslar.Name = "TxtMaaslar";
+            this.TxtMaaslar.Size = new System.Drawing.Size(163, 22);
+            this.TxtMaaslar.TabIndex = 7;
+            // 
+            // TxtInternet
+            // 
+            this.TxtInternet.Location = new System.Drawing.Point(146, 230);
+            this.TxtInternet.Name = "TxtInternet";
+            this.TxtInternet.Size = new System.Drawing.Size(163, 22);
+            this.TxtInternet.TabIndex = 6;
+            // 
             // CmbYil
             // 
             this.CmbYil.Location = new System.Drawing.Point(144, 110);
@@ -110,7 +124,7 @@
             "2023",
             "2024"});
             this.CmbYil.Size = new System.Drawing.Size(164, 22);
-            this.CmbYil.TabIndex = 25;
+            this.CmbYil.TabIndex = 2;
             // 
             // CmbAy
             // 
@@ -132,7 +146,7 @@
             "Kasım",
             "Aralık"});
             this.CmbAy.Size = new System.Drawing.Size(163, 22);
-            this.CmbAy.TabIndex = 24;
+            this.CmbAy.TabIndex = 1;
             // 
             // labelControl11
             // 
@@ -180,7 +194,7 @@
             this.BtnKaydet.Location = new System.Drawing.Point(146, 427);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(162, 43);
-            this.BtnKaydet.TabIndex = 19;
+            this.BtnKaydet.TabIndex = 10;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
@@ -189,7 +203,7 @@
             this.RchNotlar.Location = new System.Drawing.Point(146, 315);
             this.RchNotlar.Name = "RchNotlar";
             this.RchNotlar.Size = new System.Drawing.Size(162, 96);
-            this.RchNotlar.TabIndex = 18;
+            this.RchNotlar.TabIndex = 9;
             this.RchNotlar.Text = "";
             // 
             // labelControl9
@@ -217,7 +231,7 @@
             this.TxtEkstra.Location = new System.Drawing.Point(145, 287);
             this.TxtEkstra.Name = "TxtEkstra";
             this.TxtEkstra.Size = new System.Drawing.Size(163, 22);
-            this.TxtEkstra.TabIndex = 13;
+            this.TxtEkstra.TabIndex = 8;
             // 
             // labelControl6
             // 
@@ -234,7 +248,7 @@
             this.TxtDogalgaz.Location = new System.Drawing.Point(146, 199);
             this.TxtDogalgaz.Name = "TxtDogalgaz";
             this.TxtDogalgaz.Size = new System.Drawing.Size(163, 22);
-            this.TxtDogalgaz.TabIndex = 10;
+            this.TxtDogalgaz.TabIndex = 5;
             // 
             // labelControl5
             // 
@@ -261,7 +275,7 @@
             this.TxtSu.Location = new System.Drawing.Point(146, 168);
             this.TxtSu.Name = "TxtSu";
             this.TxtSu.Size = new System.Drawing.Size(163, 22);
-            this.TxtSu.TabIndex = 6;
+            this.TxtSu.TabIndex = 4;
             // 
             // labelControl3
             // 
@@ -278,7 +292,7 @@
             this.TxtElektrik.Location = new System.Drawing.Point(144, 139);
             this.TxtElektrik.Name = "TxtElektrik";
             this.TxtElektrik.Size = new System.Drawing.Size(163, 22);
-            this.TxtElektrik.TabIndex = 4;
+            this.TxtElektrik.TabIndex = 3;
             // 
             // labelControl2
             // 
@@ -295,7 +309,7 @@
             this.TxtId.Location = new System.Drawing.Point(146, 53);
             this.TxtId.Name = "TxtId";
             this.TxtId.Size = new System.Drawing.Size(163, 22);
-            this.TxtId.TabIndex = 1;
+            this.TxtId.TabIndex = 22;
             // 
             // labelControl1
             // 
@@ -326,20 +340,6 @@
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
             // 
-            // TxtInternet
-            // 
-            this.TxtInternet.Location = new System.Drawing.Point(146, 230);
-            this.TxtInternet.Name = "TxtInternet";
-            this.TxtInternet.Size = new System.Drawing.Size(163, 22);
-            this.TxtInternet.TabIndex = 26;
-            // 
-            // TxtMaaslar
-            // 
-            this.TxtMaaslar.Location = new System.Drawing.Point(144, 260);
-            this.TxtMaaslar.Name = "TxtMaaslar";
-            this.TxtMaaslar.Size = new System.Drawing.Size(163, 22);
-            this.TxtMaaslar.TabIndex = 27;
-            // 
             // FrmGiderler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -353,6 +353,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtMaaslar.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtInternet.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CmbYil.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CmbAy.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtEkstra.Properties)).EndInit();
@@ -362,8 +364,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.TxtId.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtInternet.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtMaaslar.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

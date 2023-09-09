@@ -84,6 +84,7 @@ namespace Ticari_Otomasyon
             bgl.baglanti().Close();
             MessageBox.Show("Personel Bilgileri Kaydedildi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             personelliste();
+            temizle();
         }
 
         private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
@@ -132,6 +133,7 @@ namespace Ticari_Otomasyon
             bgl.baglanti().Close();
             MessageBox.Show("Personel Bilgileri Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             personelliste();
+            temizle();
         }
     }
 }

@@ -139,7 +139,7 @@
             this.BtnKaydet.Location = new System.Drawing.Point(133, 398);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(162, 43);
-            this.BtnKaydet.TabIndex = 19;
+            this.BtnKaydet.TabIndex = 9;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
@@ -148,7 +148,7 @@
             this.RchDetay.Location = new System.Drawing.Point(133, 288);
             this.RchDetay.Name = "RchDetay";
             this.RchDetay.Size = new System.Drawing.Size(162, 96);
-            this.RchDetay.TabIndex = 18;
+            this.RchDetay.TabIndex = 8;
             this.RchDetay.Text = "";
             // 
             // labelControl9
@@ -186,7 +186,7 @@
             this.TxtSatis.Location = new System.Drawing.Point(133, 260);
             this.TxtSatis.Name = "TxtSatis";
             this.TxtSatis.Size = new System.Drawing.Size(163, 22);
-            this.TxtSatis.TabIndex = 13;
+            this.TxtSatis.TabIndex = 7;
             // 
             // labelControl6
             // 
@@ -204,14 +204,14 @@
             this.NumAdet.Location = new System.Drawing.Point(133, 197);
             this.NumAdet.Name = "NumAdet";
             this.NumAdet.Size = new System.Drawing.Size(163, 29);
-            this.NumAdet.TabIndex = 11;
+            this.NumAdet.TabIndex = 5;
             // 
             // TxtAlis
             // 
             this.TxtAlis.Location = new System.Drawing.Point(133, 232);
             this.TxtAlis.Name = "TxtAlis";
             this.TxtAlis.Size = new System.Drawing.Size(163, 22);
-            this.TxtAlis.TabIndex = 10;
+            this.TxtAlis.TabIndex = 6;
             // 
             // labelControl5
             // 
@@ -228,7 +228,7 @@
             this.TxtModel.Location = new System.Drawing.Point(133, 140);
             this.TxtModel.Name = "TxtModel";
             this.TxtModel.Size = new System.Drawing.Size(163, 22);
-            this.TxtModel.TabIndex = 8;
+            this.TxtModel.TabIndex = 3;
             // 
             // labelControl4
             // 
@@ -245,7 +245,7 @@
             this.TxtMarka.Location = new System.Drawing.Point(133, 112);
             this.TxtMarka.Name = "TxtMarka";
             this.TxtMarka.Size = new System.Drawing.Size(163, 22);
-            this.TxtMarka.TabIndex = 6;
+            this.TxtMarka.TabIndex = 2;
             // 
             // labelControl3
             // 
@@ -262,7 +262,7 @@
             this.TxtAd.Location = new System.Drawing.Point(133, 84);
             this.TxtAd.Name = "TxtAd";
             this.TxtAd.Size = new System.Drawing.Size(163, 22);
-            this.TxtAd.TabIndex = 4;
+            this.TxtAd.TabIndex = 1;
             // 
             // labelControl2
             // 
@@ -280,7 +280,7 @@
             this.MskYil.Mask = "0000";
             this.MskYil.Name = "MskYil";
             this.MskYil.Size = new System.Drawing.Size(163, 23);
-            this.MskYil.TabIndex = 2;
+            this.MskYil.TabIndex = 4;
             this.MskYil.ValidatingType = typeof(int);
             // 
             // TxtId
@@ -288,7 +288,7 @@
             this.TxtId.Location = new System.Drawing.Point(133, 53);
             this.TxtId.Name = "TxtId";
             this.TxtId.Size = new System.Drawing.Size(163, 22);
-            this.TxtId.TabIndex = 1;
+            this.TxtId.TabIndex = 20;
             // 
             // labelControl1
             // 

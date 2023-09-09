@@ -144,7 +144,7 @@
             this.BtnGuncelle.Location = new System.Drawing.Point(119, 158);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(165, 43);
-            this.BtnGuncelle.TabIndex = 40;
+            this.BtnGuncelle.TabIndex = 16;
             this.BtnGuncelle.Text = "Güncelle";
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
@@ -154,7 +154,7 @@
             this.BtnSil.Location = new System.Drawing.Point(119, 109);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(165, 43);
-            this.BtnSil.TabIndex = 39;
+            this.BtnSil.TabIndex = 15;
             this.BtnSil.Text = "Sil";
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
@@ -163,21 +163,21 @@
             this.TxtTeslimAlan.Location = new System.Drawing.Point(122, 74);
             this.TxtTeslimAlan.Name = "TxtTeslimAlan";
             this.TxtTeslimAlan.Size = new System.Drawing.Size(162, 22);
-            this.TxtTeslimAlan.TabIndex = 38;
+            this.TxtTeslimAlan.TabIndex = 8;
             // 
             // TxtTeslimEden
             // 
             this.TxtTeslimEden.Location = new System.Drawing.Point(121, 43);
             this.TxtTeslimEden.Name = "TxtTeslimEden";
             this.TxtTeslimEden.Size = new System.Drawing.Size(163, 22);
-            this.TxtTeslimEden.TabIndex = 12;
+            this.TxtTeslimEden.TabIndex = 7;
             // 
             // TxtAlici
             // 
             this.TxtAlici.Location = new System.Drawing.Point(121, 9);
             this.TxtAlici.Name = "TxtAlici";
             this.TxtAlici.Size = new System.Drawing.Size(166, 22);
-            this.TxtAlici.TabIndex = 10;
+            this.TxtAlici.TabIndex = 6;
             // 
             // labelControl14
             // 
@@ -229,7 +229,7 @@
             this.TxtVergiDaire.Location = new System.Drawing.Point(121, 77);
             this.TxtVergiDaire.Name = "TxtVergiDaire";
             this.TxtVergiDaire.Size = new System.Drawing.Size(163, 22);
-            this.TxtVergiDaire.TabIndex = 37;
+            this.TxtVergiDaire.TabIndex = 5;
             // 
             // labelControl9
             // 
@@ -267,7 +267,7 @@
             this.MskTarih.Mask = "00/00/0000";
             this.MskTarih.Name = "MskTarih";
             this.MskTarih.Size = new System.Drawing.Size(166, 23);
-            this.MskTarih.TabIndex = 31;
+            this.MskTarih.TabIndex = 3;
             this.MskTarih.ValidatingType = typeof(System.DateTime);
             // 
             // MskSaat
@@ -276,7 +276,7 @@
             this.MskSaat.Mask = "00:00";
             this.MskSaat.Name = "MskSaat";
             this.MskSaat.Size = new System.Drawing.Size(163, 23);
-            this.MskSaat.TabIndex = 33;
+            this.MskSaat.TabIndex = 4;
             this.MskSaat.ValidatingType = typeof(System.DateTime);
             // 
             // groupControl2
@@ -299,7 +299,7 @@
             this.TxtSiraNo.Location = new System.Drawing.Point(121, 69);
             this.TxtSiraNo.Name = "TxtSiraNo";
             this.TxtSiraNo.Size = new System.Drawing.Size(163, 22);
-            this.TxtSiraNo.TabIndex = 10;
+            this.TxtSiraNo.TabIndex = 2;
             // 
             // labelControl3
             // 
@@ -316,7 +316,7 @@
             this.TxtSeri.Location = new System.Drawing.Point(121, 41);
             this.TxtSeri.Name = "TxtSeri";
             this.TxtSeri.Size = new System.Drawing.Size(163, 22);
-            this.TxtSeri.TabIndex = 8;
+            this.TxtSeri.TabIndex = 1;
             // 
             // labelControl2
             // 
@@ -333,7 +333,7 @@
             this.TxtId.Location = new System.Drawing.Point(121, 10);
             this.TxtId.Name = "TxtId";
             this.TxtId.Size = new System.Drawing.Size(163, 22);
-            this.TxtId.TabIndex = 6;
+            this.TxtId.TabIndex = 100;
             // 
             // labelControl1
             // 
@@ -380,42 +380,42 @@
             this.TxtFaturaId.Location = new System.Drawing.Point(121, 150);
             this.TxtFaturaId.Name = "TxtFaturaId";
             this.TxtFaturaId.Size = new System.Drawing.Size(163, 22);
-            this.TxtFaturaId.TabIndex = 44;
+            this.TxtFaturaId.TabIndex = 13;
             // 
             // TxtTutar
             // 
             this.TxtTutar.Location = new System.Drawing.Point(121, 122);
             this.TxtTutar.Name = "TxtTutar";
             this.TxtTutar.Size = new System.Drawing.Size(163, 22);
-            this.TxtTutar.TabIndex = 43;
+            this.TxtTutar.TabIndex = 12;
             // 
             // TxtFiyat
             // 
             this.TxtFiyat.Location = new System.Drawing.Point(121, 94);
             this.TxtFiyat.Name = "TxtFiyat";
             this.TxtFiyat.Size = new System.Drawing.Size(163, 22);
-            this.TxtFiyat.TabIndex = 42;
+            this.TxtFiyat.TabIndex = 11;
             // 
             // TxtMiktar
             // 
             this.TxtMiktar.Location = new System.Drawing.Point(121, 66);
             this.TxtMiktar.Name = "TxtMiktar";
             this.TxtMiktar.Size = new System.Drawing.Size(163, 22);
-            this.TxtMiktar.TabIndex = 41;
+            this.TxtMiktar.TabIndex = 10;
             // 
             // TxtUrunAd
             // 
             this.TxtUrunAd.Location = new System.Drawing.Point(121, 38);
             this.TxtUrunAd.Name = "TxtUrunAd";
             this.TxtUrunAd.Size = new System.Drawing.Size(163, 22);
-            this.TxtUrunAd.TabIndex = 40;
+            this.TxtUrunAd.TabIndex = 9;
             // 
             // TxtUrunId
             // 
             this.TxtUrunId.Location = new System.Drawing.Point(121, 10);
             this.TxtUrunId.Name = "TxtUrunId";
             this.TxtUrunId.Size = new System.Drawing.Size(163, 22);
-            this.TxtUrunId.TabIndex = 39;
+            this.TxtUrunId.TabIndex = 35;
             // 
             // labelControl15
             // 
@@ -443,7 +443,7 @@
             this.BtnKaydet.Location = new System.Drawing.Point(121, 184);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(165, 43);
-            this.BtnKaydet.TabIndex = 34;
+            this.BtnKaydet.TabIndex = 14;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 

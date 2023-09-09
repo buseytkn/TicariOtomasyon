@@ -106,3 +106,7 @@ D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_
 D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmFaturalar.resources
 D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmFaturaUrun.resources
 D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmFaturaUrunDuzenleme.resources
+D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmNotlar.resources
+D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmNotDetay.resources
+D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmHareketler.resources
+D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmAdmin.resources

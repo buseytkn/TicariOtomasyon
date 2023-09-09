@@ -25,11 +25,23 @@ namespace Ticari_Otomasyon
             da.Fill(dt);
             gridControl1.DataSource = dt;
         }
+        void temizle()
+        {
+            TxtAd.Text = "";
+            TxtAlis.Text = "";
+            TxtId.Text = "";
+            TxtMarka.Text = "";
+            TxtModel.Text = "";
+            TxtSatis.Text = "";
+            MskYil.Text = "";
+            NumAdet.Value = 0;
+            RchDetay.Text = "";
+        }
         private void FrmUrunler_Load(object sender, EventArgs e)
         {
             listele();
+            temizle();
         }
-
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
             SqlCommand komut = new SqlCommand("insert into tbl_urunler (URUNAD,MARKA,MODEL,YIL,ADET,ALISFIYAT,SATISFIYAT,DETAY) values (@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8)",bgl.baglanti());   
@@ -45,6 +57,7 @@ namespace Ticari_Otomasyon
             bgl.baglanti().Close();
             MessageBox.Show("Ürün Sisteme Eklendi","Bilgi",MessageBoxButtons.OK, MessageBoxIcon.Information);
             listele();
+            temizle();
         }
 
         private void BtnSil_Click(object sender, EventArgs e)
@@ -55,6 +68,7 @@ namespace Ticari_Otomasyon
             bgl.baglanti().Close();
             MessageBox.Show("Ürün Silnidi","Bilgi",MessageBoxButtons.OK,MessageBoxIcon.Error);
             listele();
+            temizle();
         }
 
         private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
@@ -87,6 +101,7 @@ namespace Ticari_Otomasyon
             bgl.baglanti().Close();
             MessageBox.Show("Ürün Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             listele();
+            temizle();
         }
     }
 }

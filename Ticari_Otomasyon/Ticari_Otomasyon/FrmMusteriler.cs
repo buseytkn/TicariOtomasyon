@@ -36,10 +36,25 @@ namespace Ticari_Otomasyon
             }
             bgl.baglanti().Close();
         }
+        void temizle()
+        {
+            TxtAd.Text = "";
+            TxtId.Text = "";
+            TxtMail.Text = "";
+            TxtSoyad.Text = "";
+            TxtVergiDairesi.Text = "";
+            MskTC.Text = "";
+            MskTel1.Text = "";
+            MskTel2.Text = "";
+            CmbIl.Text = "";
+            CmbIlce.Text = "";
+            RchAdres.Text = "";
+        }
         private void FrmMusteriler_Load(object sender, EventArgs e)
         {
             listele();
             sehirlistesi();
+            temizle();
         }
 
         private void CmbIl_SelectedIndexChanged(object sender, EventArgs e)
@@ -71,7 +86,9 @@ namespace Ticari_Otomasyon
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
             MessageBox.Show("Müşteri Sisteme Eklendi","Bilgi",MessageBoxButtons.OK, MessageBoxIcon.Information);
-            listele();        }
+            listele();  
+            temizle();
+        }
 
         private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
         {
@@ -104,6 +121,7 @@ namespace Ticari_Otomasyon
                 bgl.baglanti().Close();
                 MessageBox.Show("Müşteri Silindi","Bilgi",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 listele();
+                temizle();
             }
             
         }
@@ -126,6 +144,7 @@ namespace Ticari_Otomasyon
             bgl.baglanti().Close();
             MessageBox.Show("Müşteri Bilgileri Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             listele();
+            temizle();
         }
     }
 }
