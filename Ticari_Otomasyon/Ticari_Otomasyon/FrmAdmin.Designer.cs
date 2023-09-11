@@ -45,7 +45,7 @@
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 19.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(30, 75);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(190, 41);
+            this.label1.Size = new System.Drawing.Size(185, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "Kullanıcı Adı:";
             // 
@@ -56,7 +56,7 @@
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 19.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(136, 116);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 41);
+            this.label2.Size = new System.Drawing.Size(81, 40);
             this.label2.TabIndex = 2;
             this.label2.Text = "Şifre:";
             // 
@@ -76,17 +76,19 @@
             // 
             // TxtAd
             // 
-            this.TxtAd.Location = new System.Drawing.Point(218, 85);
+            this.TxtAd.Location = new System.Drawing.Point(272, 106);
+            this.TxtAd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtAd.Name = "TxtAd";
-            this.TxtAd.Size = new System.Drawing.Size(211, 22);
+            this.TxtAd.Size = new System.Drawing.Size(264, 22);
             this.TxtAd.TabIndex = 5;
             // 
             // TxtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(218, 126);
+            this.TxtSifre.Location = new System.Drawing.Point(272, 158);
+            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Properties.UseSystemPasswordChar = true;
-            this.TxtSifre.Size = new System.Drawing.Size(211, 22);
+            this.TxtSifre.Size = new System.Drawing.Size(264, 22);
             this.TxtSifre.TabIndex = 6;
             // 
             // FrmAdmin

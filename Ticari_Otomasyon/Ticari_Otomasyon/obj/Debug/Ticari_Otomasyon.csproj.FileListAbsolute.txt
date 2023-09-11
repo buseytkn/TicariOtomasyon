@@ -187,3 +187,4 @@ D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\bin\Debug\ru\Micr
 D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmAyarlar.resources
+D:\ticarioto\TicariOtomasyon\Ticari_Otomasyon\Ticari_Otomasyon\obj\Debug\Ticari_Otomasyon.FrmKasa.resources

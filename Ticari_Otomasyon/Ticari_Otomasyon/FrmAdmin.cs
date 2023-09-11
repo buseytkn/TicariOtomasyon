@@ -37,6 +37,7 @@ namespace Ticari_Otomasyon
             if (dr.Read()) 
             {
                 FrmAnaModul fr = new FrmAnaModul();
+                fr.kullanici = TxtAd.Text;
                 fr.Show();
                 this.Hide();
             }

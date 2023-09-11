@@ -137,5 +137,21 @@ namespace Ticari_Otomasyon
                 fr12.Show();
             }
         }
+        FrmKasa fr13;
+        private void BtnKasa_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if(fr13 == null)
+            {
+                fr13 = new FrmKasa();
+                fr13.ad = kullanici;
+                fr13.MdiParent = this;
+                fr13.Show();
+            }
+        }
+        public string kullanici;
+        private void FrmAnaModul_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
