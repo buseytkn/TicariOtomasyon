@@ -95,40 +95,45 @@
             this.groupControl1.Controls.Add(this.labelControl2);
             this.groupControl1.Controls.Add(this.TxtId);
             this.groupControl1.Controls.Add(this.labelControl1);
-            this.groupControl1.Location = new System.Drawing.Point(1060, -1);
+            this.groupControl1.Location = new System.Drawing.Point(1518, -1);
+            this.groupControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(324, 867);
+            this.groupControl1.Size = new System.Drawing.Size(405, 1084);
             this.groupControl1.TabIndex = 7;
             // 
             // TxtMaaslar
             // 
-            this.TxtMaaslar.Location = new System.Drawing.Point(144, 260);
+            this.TxtMaaslar.Location = new System.Drawing.Point(180, 325);
+            this.TxtMaaslar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtMaaslar.Name = "TxtMaaslar";
-            this.TxtMaaslar.Size = new System.Drawing.Size(163, 22);
+            this.TxtMaaslar.Size = new System.Drawing.Size(204, 22);
             this.TxtMaaslar.TabIndex = 7;
             // 
             // TxtInternet
             // 
-            this.TxtInternet.Location = new System.Drawing.Point(146, 230);
+            this.TxtInternet.Location = new System.Drawing.Point(182, 288);
+            this.TxtInternet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtInternet.Name = "TxtInternet";
-            this.TxtInternet.Size = new System.Drawing.Size(163, 22);
+            this.TxtInternet.Size = new System.Drawing.Size(204, 22);
             this.TxtInternet.TabIndex = 6;
             // 
             // CmbYil
             // 
-            this.CmbYil.Location = new System.Drawing.Point(144, 110);
+            this.CmbYil.Location = new System.Drawing.Point(180, 138);
+            this.CmbYil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CmbYil.Name = "CmbYil";
             this.CmbYil.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.CmbYil.Properties.Items.AddRange(new object[] {
             "2023",
             "2024"});
-            this.CmbYil.Size = new System.Drawing.Size(164, 22);
+            this.CmbYil.Size = new System.Drawing.Size(205, 22);
             this.CmbYil.TabIndex = 2;
             // 
             // CmbAy
             // 
-            this.CmbAy.Location = new System.Drawing.Point(145, 82);
+            this.CmbAy.Location = new System.Drawing.Point(181, 102);
+            this.CmbAy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CmbAy.Name = "CmbAy";
             this.CmbAy.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -145,14 +150,15 @@
             "Ekim",
             "Kasım",
             "Aralık"});
-            this.CmbAy.Size = new System.Drawing.Size(163, 22);
+            this.CmbAy.Size = new System.Drawing.Size(204, 22);
             this.CmbAy.TabIndex = 1;
             // 
             // labelControl11
             // 
             this.labelControl11.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl11.Appearance.Options.UseFont = true;
-            this.labelControl11.Location = new System.Drawing.Point(66, 318);
+            this.labelControl11.Location = new System.Drawing.Point(82, 398);
+            this.labelControl11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(73, 22);
             this.labelControl11.TabIndex = 23;
@@ -162,7 +168,8 @@
             // 
             this.labelControl10.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl10.Appearance.Options.UseFont = true;
-            this.labelControl10.Location = new System.Drawing.Point(69, 287);
+            this.labelControl10.Location = new System.Drawing.Point(86, 359);
+            this.labelControl10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(70, 22);
             this.labelControl10.TabIndex = 22;
@@ -171,9 +178,10 @@
             // BtnGuncelle
             // 
             this.BtnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnGuncelle.ImageOptions.Image")));
-            this.BtnGuncelle.Location = new System.Drawing.Point(146, 525);
+            this.BtnGuncelle.Location = new System.Drawing.Point(182, 656);
+            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnGuncelle.Name = "BtnGuncelle";
-            this.BtnGuncelle.Size = new System.Drawing.Size(162, 43);
+            this.BtnGuncelle.Size = new System.Drawing.Size(202, 54);
             this.BtnGuncelle.TabIndex = 21;
             this.BtnGuncelle.Text = "Güncelle";
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
@@ -181,9 +189,10 @@
             // BtnSil
             // 
             this.BtnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnSil.ImageOptions.Image")));
-            this.BtnSil.Location = new System.Drawing.Point(146, 476);
+            this.BtnSil.Location = new System.Drawing.Point(182, 595);
+            this.BtnSil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnSil.Name = "BtnSil";
-            this.BtnSil.Size = new System.Drawing.Size(162, 43);
+            this.BtnSil.Size = new System.Drawing.Size(202, 54);
             this.BtnSil.TabIndex = 20;
             this.BtnSil.Text = "Sil";
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
@@ -191,18 +200,20 @@
             // BtnKaydet
             // 
             this.BtnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnKaydet.ImageOptions.Image")));
-            this.BtnKaydet.Location = new System.Drawing.Point(146, 427);
+            this.BtnKaydet.Location = new System.Drawing.Point(182, 534);
+            this.BtnKaydet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnKaydet.Name = "BtnKaydet";
-            this.BtnKaydet.Size = new System.Drawing.Size(162, 43);
+            this.BtnKaydet.Size = new System.Drawing.Size(202, 54);
             this.BtnKaydet.TabIndex = 10;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // RchNotlar
             // 
-            this.RchNotlar.Location = new System.Drawing.Point(146, 315);
+            this.RchNotlar.Location = new System.Drawing.Point(182, 394);
+            this.RchNotlar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RchNotlar.Name = "RchNotlar";
-            this.RchNotlar.Size = new System.Drawing.Size(162, 96);
+            this.RchNotlar.Size = new System.Drawing.Size(202, 119);
             this.RchNotlar.TabIndex = 9;
             this.RchNotlar.Text = "";
             // 
@@ -210,7 +221,8 @@
             // 
             this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl9.Appearance.Options.UseFont = true;
-            this.labelControl9.Location = new System.Drawing.Point(111, 170);
+            this.labelControl9.Location = new System.Drawing.Point(139, 212);
+            this.labelControl9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(28, 22);
             this.labelControl9.TabIndex = 17;
@@ -220,7 +232,8 @@
             // 
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl7.Appearance.Options.UseFont = true;
-            this.labelControl7.Location = new System.Drawing.Point(56, 259);
+            this.labelControl7.Location = new System.Drawing.Point(70, 324);
+            this.labelControl7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(83, 22);
             this.labelControl7.TabIndex = 14;
@@ -228,16 +241,18 @@
             // 
             // TxtEkstra
             // 
-            this.TxtEkstra.Location = new System.Drawing.Point(145, 287);
+            this.TxtEkstra.Location = new System.Drawing.Point(181, 359);
+            this.TxtEkstra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtEkstra.Name = "TxtEkstra";
-            this.TxtEkstra.Size = new System.Drawing.Size(163, 22);
+            this.TxtEkstra.Size = new System.Drawing.Size(204, 22);
             this.TxtEkstra.TabIndex = 8;
             // 
             // labelControl6
             // 
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl6.Appearance.Options.UseFont = true;
-            this.labelControl6.Location = new System.Drawing.Point(49, 231);
+            this.labelControl6.Location = new System.Drawing.Point(61, 289);
+            this.labelControl6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(90, 22);
             this.labelControl6.TabIndex = 12;
@@ -245,16 +260,18 @@
             // 
             // TxtDogalgaz
             // 
-            this.TxtDogalgaz.Location = new System.Drawing.Point(146, 199);
+            this.TxtDogalgaz.Location = new System.Drawing.Point(182, 249);
+            this.TxtDogalgaz.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtDogalgaz.Name = "TxtDogalgaz";
-            this.TxtDogalgaz.Size = new System.Drawing.Size(163, 22);
+            this.TxtDogalgaz.Size = new System.Drawing.Size(204, 22);
             this.TxtDogalgaz.TabIndex = 5;
             // 
             // labelControl5
             // 
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(43, 203);
+            this.labelControl5.Location = new System.Drawing.Point(54, 254);
+            this.labelControl5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(96, 22);
             this.labelControl5.TabIndex = 9;
@@ -264,7 +281,8 @@
             // 
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(53, 141);
+            this.labelControl4.Location = new System.Drawing.Point(66, 176);
+            this.labelControl4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(86, 22);
             this.labelControl4.TabIndex = 7;
@@ -272,16 +290,18 @@
             // 
             // TxtSu
             // 
-            this.TxtSu.Location = new System.Drawing.Point(146, 168);
+            this.TxtSu.Location = new System.Drawing.Point(182, 210);
+            this.TxtSu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtSu.Name = "TxtSu";
-            this.TxtSu.Size = new System.Drawing.Size(163, 22);
+            this.TxtSu.Size = new System.Drawing.Size(204, 22);
             this.TxtSu.TabIndex = 4;
             // 
             // labelControl3
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(107, 112);
+            this.labelControl3.Location = new System.Drawing.Point(134, 140);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(32, 22);
             this.labelControl3.TabIndex = 5;
@@ -289,16 +309,18 @@
             // 
             // TxtElektrik
             // 
-            this.TxtElektrik.Location = new System.Drawing.Point(144, 139);
+            this.TxtElektrik.Location = new System.Drawing.Point(180, 174);
+            this.TxtElektrik.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtElektrik.Name = "TxtElektrik";
-            this.TxtElektrik.Size = new System.Drawing.Size(163, 22);
+            this.TxtElektrik.Size = new System.Drawing.Size(204, 22);
             this.TxtElektrik.TabIndex = 3;
             // 
             // labelControl2
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(112, 85);
+            this.labelControl2.Location = new System.Drawing.Point(140, 106);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(27, 22);
             this.labelControl2.TabIndex = 3;
@@ -306,16 +328,18 @@
             // 
             // TxtId
             // 
-            this.TxtId.Location = new System.Drawing.Point(146, 53);
+            this.TxtId.Location = new System.Drawing.Point(182, 66);
+            this.TxtId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtId.Name = "TxtId";
-            this.TxtId.Size = new System.Drawing.Size(163, 22);
+            this.TxtId.Size = new System.Drawing.Size(204, 22);
             this.TxtId.TabIndex = 22;
             // 
             // labelControl1
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(114, 54);
+            this.labelControl1.Location = new System.Drawing.Point(142, 68);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(25, 22);
             this.labelControl1.TabIndex = 0;
@@ -323,10 +347,12 @@
             // 
             // gridControl1
             // 
+            this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridControl1.Location = new System.Drawing.Point(0, -1);
             this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1054, 854);
+            this.gridControl1.Size = new System.Drawing.Size(1510, 1068);
             this.gridControl1.TabIndex = 6;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -335,8 +361,10 @@
             // 
             this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.gridView1.Appearance.Row.Options.UseBackColor = true;
+            this.gridView1.DetailHeight = 437;
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsEditForm.PopupEditFormWidth = 1000;
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
             // 
@@ -344,7 +372,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1382, 853);
+            this.ClientSize = new System.Drawing.Size(1924, 853);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.gridControl1);
             this.Name = "FrmGiderler";

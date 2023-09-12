@@ -64,7 +64,7 @@
             // 
             this.BtnGirisYap.BackColor = System.Drawing.Color.DimGray;
             this.BtnGirisYap.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnGirisYap.Location = new System.Drawing.Point(218, 165);
+            this.BtnGirisYap.Location = new System.Drawing.Point(239, 160);
             this.BtnGirisYap.Name = "BtnGirisYap";
             this.BtnGirisYap.Size = new System.Drawing.Size(211, 33);
             this.BtnGirisYap.TabIndex = 4;
@@ -76,19 +76,19 @@
             // 
             // TxtAd
             // 
-            this.TxtAd.Location = new System.Drawing.Point(272, 106);
-            this.TxtAd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtAd.Location = new System.Drawing.Point(218, 89);
+            this.TxtAd.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.TxtAd.Name = "TxtAd";
-            this.TxtAd.Size = new System.Drawing.Size(264, 22);
+            this.TxtAd.Size = new System.Drawing.Size(256, 22);
             this.TxtAd.TabIndex = 5;
             // 
             // TxtSifre
             // 
-            this.TxtSifre.Location = new System.Drawing.Point(272, 158);
-            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSifre.Location = new System.Drawing.Point(218, 130);
+            this.TxtSifre.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Properties.UseSystemPasswordChar = true;
-            this.TxtSifre.Size = new System.Drawing.Size(264, 22);
+            this.TxtSifre.Size = new System.Drawing.Size(256, 22);
             this.TxtSifre.TabIndex = 6;
             // 
             // FrmAdmin

@@ -33,12 +33,20 @@ namespace Ticari_Otomasyon
             da1.Fill(dt1);
             gridControl3.DataSource = dt1;
         }
+        void giderlistesi()
+        {
+            DataTable dt2 = new DataTable();
+            SqlDataAdapter da3 = new SqlDataAdapter("select * from tbl_gıderler",bgl.baglanti());
+            da3.Fill(dt2);
+            gridControl2.DataSource = dt2;
+        }
         public string ad;
         private void FrmKasa_Load(object sender, EventArgs e)
         {
             LblAktifKullanici.Text = ad;
             musterihareket();
             firmahareket(); 
+            giderlistesi();
 
             SqlCommand komut = new SqlCommand("select sum(tutar) from tbl_faturadetay",bgl.baglanti());
             SqlDataReader dr = komut.ExecuteReader();

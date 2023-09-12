@@ -78,35 +78,39 @@
             this.groupControl1.Controls.Add(this.labelControl2);
             this.groupControl1.Controls.Add(this.TxtId);
             this.groupControl1.Controls.Add(this.labelControl1);
-            this.groupControl1.Location = new System.Drawing.Point(1059, -1);
+            this.groupControl1.Location = new System.Drawing.Point(1519, -1);
+            this.groupControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(324, 854);
+            this.groupControl1.Size = new System.Drawing.Size(405, 1068);
             this.groupControl1.TabIndex = 5;
             // 
             // MskSaat
             // 
-            this.MskSaat.Location = new System.Drawing.Point(148, 112);
+            this.MskSaat.Location = new System.Drawing.Point(185, 140);
+            this.MskSaat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MskSaat.Mask = "00:00";
             this.MskSaat.Name = "MskSaat";
-            this.MskSaat.Size = new System.Drawing.Size(163, 23);
+            this.MskSaat.Size = new System.Drawing.Size(203, 23);
             this.MskSaat.TabIndex = 27;
             this.MskSaat.ValidatingType = typeof(System.DateTime);
             // 
             // MskTarih
             // 
-            this.MskTarih.Location = new System.Drawing.Point(146, 81);
+            this.MskTarih.Location = new System.Drawing.Point(182, 101);
+            this.MskTarih.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MskTarih.Mask = "00/00/0000";
             this.MskTarih.Name = "MskTarih";
-            this.MskTarih.Size = new System.Drawing.Size(163, 23);
+            this.MskTarih.Size = new System.Drawing.Size(203, 23);
             this.MskTarih.TabIndex = 26;
             this.MskTarih.ValidatingType = typeof(System.DateTime);
             // 
             // BtnGuncelle
             // 
             this.BtnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnGuncelle.ImageOptions.Image")));
-            this.BtnGuncelle.Location = new System.Drawing.Point(146, 443);
+            this.BtnGuncelle.Location = new System.Drawing.Point(182, 554);
+            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnGuncelle.Name = "BtnGuncelle";
-            this.BtnGuncelle.Size = new System.Drawing.Size(162, 43);
+            this.BtnGuncelle.Size = new System.Drawing.Size(202, 54);
             this.BtnGuncelle.TabIndex = 21;
             this.BtnGuncelle.Text = "Güncelle";
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
@@ -114,9 +118,10 @@
             // BtnSil
             // 
             this.BtnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnSil.ImageOptions.Image")));
-            this.BtnSil.Location = new System.Drawing.Point(146, 394);
+            this.BtnSil.Location = new System.Drawing.Point(182, 492);
+            this.BtnSil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnSil.Name = "BtnSil";
-            this.BtnSil.Size = new System.Drawing.Size(162, 43);
+            this.BtnSil.Size = new System.Drawing.Size(202, 54);
             this.BtnSil.TabIndex = 20;
             this.BtnSil.Text = "Sil";
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
@@ -124,18 +129,20 @@
             // BtnKaydet
             // 
             this.BtnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnKaydet.ImageOptions.Image")));
-            this.BtnKaydet.Location = new System.Drawing.Point(146, 345);
+            this.BtnKaydet.Location = new System.Drawing.Point(182, 431);
+            this.BtnKaydet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnKaydet.Name = "BtnKaydet";
-            this.BtnKaydet.Size = new System.Drawing.Size(162, 43);
+            this.BtnKaydet.Size = new System.Drawing.Size(202, 54);
             this.BtnKaydet.TabIndex = 19;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // RchDetay
             // 
-            this.RchDetay.Location = new System.Drawing.Point(149, 236);
+            this.RchDetay.Location = new System.Drawing.Point(186, 295);
+            this.RchDetay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RchDetay.Name = "RchDetay";
-            this.RchDetay.Size = new System.Drawing.Size(162, 96);
+            this.RchDetay.Size = new System.Drawing.Size(202, 119);
             this.RchDetay.TabIndex = 18;
             this.RchDetay.Text = "";
             // 
@@ -143,7 +150,8 @@
             // 
             this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl9.Appearance.Options.UseFont = true;
-            this.labelControl9.Location = new System.Drawing.Point(91, 202);
+            this.labelControl9.Location = new System.Drawing.Point(114, 252);
+            this.labelControl9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(47, 22);
             this.labelControl9.TabIndex = 17;
@@ -153,7 +161,8 @@
             // 
             this.labelControl8.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl8.Appearance.Options.UseFont = true;
-            this.labelControl8.Location = new System.Drawing.Point(56, 171);
+            this.labelControl8.Location = new System.Drawing.Point(70, 214);
+            this.labelControl8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(82, 22);
             this.labelControl8.TabIndex = 16;
@@ -161,16 +170,18 @@
             // 
             // TxtHitap
             // 
-            this.TxtHitap.Location = new System.Drawing.Point(148, 204);
+            this.TxtHitap.Location = new System.Drawing.Point(185, 255);
+            this.TxtHitap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtHitap.Name = "TxtHitap";
-            this.TxtHitap.Size = new System.Drawing.Size(163, 22);
+            this.TxtHitap.Size = new System.Drawing.Size(204, 22);
             this.TxtHitap.TabIndex = 10;
             // 
             // labelControl5
             // 
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(87, 232);
+            this.labelControl5.Location = new System.Drawing.Point(109, 290);
+            this.labelControl5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(51, 22);
             this.labelControl5.TabIndex = 9;
@@ -180,7 +191,8 @@
             // 
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(87, 140);
+            this.labelControl4.Location = new System.Drawing.Point(109, 175);
+            this.labelControl4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(51, 22);
             this.labelControl4.TabIndex = 7;
@@ -188,16 +200,18 @@
             // 
             // TxtOlusturan
             // 
-            this.TxtOlusturan.Location = new System.Drawing.Point(148, 173);
+            this.TxtOlusturan.Location = new System.Drawing.Point(185, 216);
+            this.TxtOlusturan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtOlusturan.Name = "TxtOlusturan";
-            this.TxtOlusturan.Size = new System.Drawing.Size(163, 22);
+            this.TxtOlusturan.Size = new System.Drawing.Size(204, 22);
             this.TxtOlusturan.TabIndex = 6;
             // 
             // labelControl3
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(98, 113);
+            this.labelControl3.Location = new System.Drawing.Point(122, 141);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(40, 22);
             this.labelControl3.TabIndex = 5;
@@ -205,16 +219,18 @@
             // 
             // TxtBaslik
             // 
-            this.TxtBaslik.Location = new System.Drawing.Point(148, 142);
+            this.TxtBaslik.Location = new System.Drawing.Point(185, 178);
+            this.TxtBaslik.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtBaslik.Name = "TxtBaslik";
-            this.TxtBaslik.Size = new System.Drawing.Size(163, 22);
+            this.TxtBaslik.Size = new System.Drawing.Size(204, 22);
             this.TxtBaslik.TabIndex = 4;
             // 
             // labelControl2
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(92, 83);
+            this.labelControl2.Location = new System.Drawing.Point(115, 104);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(46, 22);
             this.labelControl2.TabIndex = 3;
@@ -222,16 +238,18 @@
             // 
             // TxtId
             // 
-            this.TxtId.Location = new System.Drawing.Point(146, 53);
+            this.TxtId.Location = new System.Drawing.Point(182, 66);
+            this.TxtId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtId.Name = "TxtId";
-            this.TxtId.Size = new System.Drawing.Size(163, 22);
+            this.TxtId.Size = new System.Drawing.Size(204, 22);
             this.TxtId.TabIndex = 1;
             // 
             // labelControl1
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(113, 53);
+            this.labelControl1.Location = new System.Drawing.Point(141, 66);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(25, 22);
             this.labelControl1.TabIndex = 0;
@@ -239,10 +257,12 @@
             // 
             // gridControl1
             // 
+            this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridControl1.Location = new System.Drawing.Point(-1, -1);
             this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1054, 854);
+            this.gridControl1.Size = new System.Drawing.Size(1512, 1068);
             this.gridControl1.TabIndex = 4;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -251,8 +271,10 @@
             // 
             this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.gridView1.Appearance.Row.Options.UseBackColor = true;
+            this.gridView1.DetailHeight = 437;
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsEditForm.PopupEditFormWidth = 1000;
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
             this.gridView1.DoubleClick += new System.EventHandler(this.gridView1_DoubleClick);
@@ -261,7 +283,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1382, 853);
+            this.ClientSize = new System.Drawing.Size(1924, 853);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.gridControl1);
             this.Name = "FrmNotlar";
